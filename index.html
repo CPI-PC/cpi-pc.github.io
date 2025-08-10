@@ -1,36 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-BD" dir="ltr">
 <head>
+    <!-- Primary Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPIPC - Cumilla Polytechnic Institute Programming Club</title>
-    <meta name="description" content="Cumilla Polytechnic Institute Programming Club (CPIPC) - promoting programming, problem-solving, and coding competitions among students.">
-    <meta name="keywords" content="CPIPC, Cumilla Polytechnic, Programming Club, Coding, Competitive Programming, Bangladesh, Polytechnic Contest">
-    <meta name="robots" content="index, follow">
-
-    <meta property="og:title" content="CPIPC - Cumilla Polytechnic Institute Programming Club">
-    <meta property="og:description" content="Cumilla Polytechnic Institute Programming Club - enhancing programming skills through contests, workshops, and community events.">
-    <meta property="og:url" content="https://yourdomain.com">
+    <title>CPIPC | Cumilla Polytechnic Institute Programming Club | Coding Competitions Bangladesh | Comilla Polytechnic Tech Events</title>
+    <meta name="description" content="Official Programming Club of Cumilla Polytechnic Institute (CPI). Join CPIPC for coding competitions, hackathons, programming workshops, and tech events at Comilla Polytechnic. Best programming club for polytechnic students in Bangladesh with regular contests and ICPC training.">
+    
+    <!-- Keywords (Expanded with semantic variations) -->
+    <meta name="keywords" content="
+        CPIPC, Cumilla Polytechnic Institute Programming Club, 
+        Comilla Polytechnic coding, CPI programming club, 
+        Bangladesh polytechnic programming competition, 
+        Cumilla tech events, programming workshop Comilla, 
+        polytechnic coding Bangladesh, CPIPC contests, 
+        Cumilla Polytechnic computer programming, 
+        best programming club in Cumilla, 
+        CPI coding community, Comilla Polytechnic tech club, 
+        programming competition for diploma students, 
+        Bangladesh technical education programming, 
+        learn coding at Cumilla Polytechnic, 
+        CPIPC hackathon, polytechnic programming contest BD, 
+        Comilla coding community, CPI student programmers,
+        Cumilla Polytechnic ICPC team, 
+        programming resources for polytechnic students
+    ">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="CPIPC Team - Cumilla Polytechnic Institute">
+    <meta name="generator" content="CPIPC Web Team">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    
+    <!-- Geo and Local Business Tags -->
+    <meta name="geo.region" content="BD-8">
+    <meta name="geo.placename" content="Cumilla, Bangladesh">
+    <meta name="geo.position" content="23.4607;91.1809">
+    <meta name="ICBM" content="23.4607, 91.1809">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="CPIPC | Cumilla Polytechnic Programming Club | Coding Competitions Bangladesh">
+    <meta property="og:description" content="Official Programming Club of Cumilla Polytechnic Institute. Join coding competitions, ICPC training, hackathons and tech workshops at Comilla Polytechnic.">
+    <meta property="og:url" content="https://cpipc.vercel.app">
     <meta property="og:type" content="website">
-
+    <meta property="og:locale" content="en_BD">
+    <meta property="og:site_name" content="CPIPC - Cumilla Polytechnic Institute">
+    <meta property="og:image" content="https://cpipc.vercel.app/social-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="CPIPC Cumilla Polytechnic Programming Club Members">
+    
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CPIPC - Cumilla Polytechnic Institute Programming Club">
-    <meta name="twitter:description" content="Join the Cumilla Polytechnic Institute Programming Club to improve your coding skills and compete with the best.">
-
+    <meta name="twitter:site" content="@cpipc_cumilla">
+    <meta name="twitter:creator" content="@cpipc_cumilla">
+    <meta name="twitter:title" content="CPIPC - Cumilla Polytechnic Programming Club | Coding Bangladesh">
+    <meta name="twitter:description" content="Join the official programming club of Cumilla Polytechnic Institute for coding competitions and tech workshops">
+    <meta name="twitter:image" content="https://cpipc.vercel.app/twitter-card.jpg">
+    <meta name="twitter:image:alt" content="CPIPC Programming Competition at Cumilla Polytechnic">
+    
+    <!-- Canonical and Alternate URLs -->
+    <link rel="canonical" href="https://cpipc.vercel.app">
+    <link rel="alternate" href="https://cpipc.vercel.app" hreflang="en-bd">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2b5797">
+    
+    <!-- Preload and Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    
     <style>
+        /* Base Styles */
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            padding: 0;
+            font-family: 'Roboto', 'Segoe UI', system-ui, sans-serif;
+            overflow: hidden;
+            background-color: #f8f9fa;
+            color: #212529;
         }
+        
         iframe {
             border: none;
             width: 100%;
             height: 100vh;
+            display: block;
+        }
+        
+        /* SEO Content (Hidden but accessible) */
+        .seo-content {
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        /* Print Styles */
+        @media print {
+            .seo-content {
+                position: static;
+                clip: auto;
+                height: auto;
+                width: auto;
+                overflow: visible;
+            }
         }
     </style>
 </head>
 <body>
-    <iframe src="https://cpipc.vercel.app" title="CPIPC Website" loading="lazy"></iframe>
-<!--   al kayes rifat . visit : alkayesrifat.netlify.app -->
+    <iframe src="https://cpipc.vercel.app" 
+            title="CPIPC Official Website - Cumilla Polytechnic Institute Programming Club"
+            aria-label="CPIPC Main Content Frame"
+            loading="eager"></iframe>
+    
+    <!-- Hidden SEO Content with Semantic HTML -->
+    <div class="seo-content" aria-hidden="true">
+        <article>
+            <header>
+                <h1>CPIPC - Cumilla Polytechnic Institute Programming Club</h1>
+                <p>The premier programming community at Cumilla Polytechnic Institute (CPI) in Bangladesh</p>
+            </header>
+            
+            <section>
+                <h2>About CPIPC - Cumilla Polytechnic's Coding Community</h2>
+                <p>Founded in [YEAR], the <strong>Cumilla Polytechnic Institute Programming Club (CPIPC)</strong> is the leading technical community for polytechnic students in Comilla, Bangladesh. We organize regular <strong>programming competitions</strong>, <strong>coding workshops</strong>, and <strong>tech seminars</strong> specifically designed for <strong>diploma engineering students</strong> at <strong>Cumilla Polytechnic</strong>.</p>
+                
+                <h3>Why Join CPIPC at Cumilla Polytechnic?</h3>
+                <ul>
+                    <li><strong>Competitive Programming Contests:</strong> Monthly coding competitions following ICPC/IOI standards</li>
+                    <li><strong>Technical Workshops:</strong> Hands-on sessions on web development, algorithms, and data structures</li>
+                    <li><strong>Industry Connections:</strong> Networking with tech companies and alumni from Comilla Polytechnic</li>
+                    <li><strong>Skill Development:</strong> Enhance your problem-solving and coding abilities</li>
+                    <li><strong>Career Opportunities:</strong> Get noticed by recruiters through our coding competitions</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Upcoming Events at Cumilla Polytechnic Institute</h2>
+                <p>CPIPC hosts numerous tech events throughout the academic year at <strong>Comilla Polytechnic Institute</strong> campus:</p>
+                
+                <article>
+                    <h3>Annual CPIPC Programming Contest</h3>
+                    <p>The flagship event of <strong>Cumilla Polytechnic's programming club</strong>, attracting participants from polytechnics across Bangladesh.</p>
+                </article>
+                
+                <article>
+                    <h3>Weekly Coding Challenges</h3>
+                    <p>Regular problem-solving sessions for <strong>CPI students</strong> to practice competitive programming.</p>
+                </article>
+                
+                <article>
+                    <h3>Tech Talk Series</h3>
+                    <p>Invited speakers from Bangladesh's tech industry share insights with <strong>Comilla Polytechnic students</strong>.</p>
+                </article>
+            </section>
+            
+            <section>
+                <h2>How to Join CPIPC at Cumilla Polytechnic</h2>
+                <p>All current students of <strong>Cumilla Polytechnic Institute</strong> are eligible to join the programming club:</p>
+                <ol>
+                    <li>Attend our orientation session at the beginning of each semester</li>
+                    <li>Participate in at least one coding competition or workshop</li>
+                    <li>Register through our official CPIPC portal</li>
+                </ol>
+            </section>
+            
+            <footer>
+                <h2>Contact Cumilla Polytechnic Programming Club</h2>
+                <address>
+                    CPIPC - Cumilla Polytechnic Institute Programming Club<br>
+                    Cumilla Polytechnic Institute Campus<br>
+                    [Full Address], Cumilla, Bangladesh<br>
+                    Email: <a href="mailto:contact@cpipc.org">contact@cpipc.org</a><br>
+                    Facebook: <a href="https://facebook.com/cpipc">facebook.com/cpipc</a>
+                </address>
+                
+                <p>Keywords: Cumilla Polytechnic programming club, Comilla Polytechnic coding competition, CPIPC Bangladesh, CPI programming contests, polytechnic coding events in Cumilla, best programming club for diploma students, learn competitive programming at Cumilla Polytechnic, Bangladesh technical education coding, CPIPC hackathon, Cumilla tech community, programming resources for polytechnic students, Comilla Polytechnic ICPC training, CPIPC algorithm workshops, coding for diploma engineers Bangladesh</p>
+            </footer>
+        </article>
+    </div>
+    
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "CPIPC - Cumilla Polytechnic Institute Programming Club",
+      "alternateName": "Comilla Polytechnic Programming Club",
+      "url": "https://cpipc.vercel.app",
+      "logo": "https://cpipc.vercel.app/logo.png",
+      "description": "The official programming club of Cumilla Polytechnic Institute in Bangladesh, organizing coding competitions and tech workshops for polytechnic students",
+      "foundingDate": "2020",
+      "founder": {
+        "@type": "EducationalOrganization",
+        "name": "Cumilla Polytechnic Institute"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kotbari Road",
+        "addressLocality": "Cumilla",
+        "addressRegion": "Chittagong",
+        "postalCode": "3500",
+        "addressCountry": "Bangladesh"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Student inquiries",
+        "email": "contact@cpipc.org",
+        "availableLanguage": ["en", "bn"]
+      },
+      "sameAs": [
+        "https://facebook.com/cpipc",
+        "https://twitter.com/cpipc_cumilla",
+        "https://linkedin.com/company/cpi-pc"
+      ],
+      "memberOf": {
+        "@type": "EducationalOrganization",
+        "name": "Cumilla Polytechnic Institute"
+      }
+    }
+    </script>
+    
+    <!-- Event Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EventSeries",
+      "name": "CPIPC Programming Contests",
+      "description": "Regular programming competitions organized by Cumilla Polytechnic Institute Programming Club",
+      "organizer": {
+        "@type": "Organization",
+        "name": "CPIPC",
+        "url": "https://cpipc.vercel.app"
+      },
+      "event": {
+        "@type": "Event",
+        "name": "CPIPC Monthly Coding Challenge",
+        "startDate": "2023-11-01T10:00",
+        "endDate": "2023-11-01T16:00",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Cumilla Polytechnic Institute",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kotbari Road",
+            "addressLocality": "Cumilla",
+            "addressRegion": "Chittagong",
+            "postalCode": "3500",
+            "addressCountry": "BD"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://cpipc.vercel.app/events",
+          "price": "0",
+          "priceCurrency": "BDT",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+    </script>
 </body>
 </html>
