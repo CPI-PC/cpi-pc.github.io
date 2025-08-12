@@ -1,4 +1,4 @@
-// Member profiles with basic information
+
 export interface MemberProfile {
   id: number;
   name: string;
