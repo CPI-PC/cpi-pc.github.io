@@ -83,7 +83,7 @@ export const memberProfiles: MemberProfile[] = [
     roll: "",
     shift: "2nd",
     linkedin: "https://www.linkedin.com/in/habibur-rahman-s-6ab71b379/",
-    codeforces : "https://codeforces.com/profile/habibur-rahman",
+    codeforces : "https://codeforces.com/profile/tourist",
     github : "https://github.com/sunny2749",
     facebook : "https://www.facebook.com/habibur.rahman.sunny.2025",
    
