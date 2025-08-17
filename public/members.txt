@@ -63,7 +63,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/jiangly",
   },
   {
@@ -72,7 +72,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "2018-2019",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/Kevin114514",
   },
   {
@@ -81,7 +81,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "2020-21",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/tourist",
   },
   {
@@ -90,7 +90,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/ksun48",
   },
   {
@@ -99,7 +99,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/orzdevinwang",
   },
   {
@@ -108,7 +108,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/orzdevinwang",
   },
   {
@@ -117,7 +117,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/Benq",
   },
   {
@@ -126,7 +126,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/Radewoosh",
   },
   {
@@ -135,7 +135,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/cnnfls_csy",
   },
   {
@@ -144,7 +144,7 @@ export const memberProfiles: MemberProfile[] = [
     image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
     session: "",
     roll: "",
-    shift: ""
+    shift: "",
     codeforces: "https://codeforces.com/profile/LJC00118",
   },
 
