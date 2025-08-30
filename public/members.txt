@@ -14,104 +14,80 @@ export interface MemberProfile {
 }
 
 export const memberProfiles: MemberProfile[] = [
-
-
   {
-    id: 1,
-    name: "Al kayes Rifat",
-    image: "https://i.postimg.cc/15FtSFXz/20240901-152552.jpg",
-    session: "2023-2024",
-    roll: "",
-    shift: "2nd",
-    portfolio: "https://alkayesrifat.netlify.app",
-    linkedin: "https://linkedin.com/in/alkayesrifat",
-    codeforces: "https://codeforces.com/profile/alkayesrifat",
-    facebook: "https://facebook.com/alkayesrifat.py",
-    github: "https://github.com/alkayesrifat",
-    iscp: true
+    "id": 1,
+    "name": "Al Kayes Rifat",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756529970/alkayesrifat-admin-developer-of-cpihtc-website_advloz.gif",
+    "session": "2023-2024",
+    "roll": "875483",
+    "shift": "2nd",
+    "portfolio": "https://alkayesrifat.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/alkayesrifat/",
+    "codeforces": "https://codeforces.com/profile/alkayesrifat",
+    "facebook": "https://www.facebook.com/alkayesrifat.py",
+    "github": "https://github.com/alkayesrifat",
+    "iscp": false
   },
   {
-    id: 2,
-    name: "Md Tahsin Mozumder",
-    image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
-    session: "2023-2024",
-    roll: "",
-    shift: "2nd",
-    codeforces: "https://codeforces.com/profile/Xtrike_me_",
-    linkedin: "https://linkedin.com/in/md-tahsin-mozumder",
-    github : "https://github.com/git-ethicks",
-    facebook: "https://www.facebook.com/md.tahsin.mozumder",
-    
+    "id": 2,
+    "name": "Najmul Haque Talukder",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756459152/cpi-members/l1ydmim4jrnbbpfo2zvj.jpg",
+    "session": "2021-2022",
+    "roll": "679341",
+    "shift": "2nd",
+    "portfolio": "https://robilop.framer.website/",
+    "linkedin": "https://www.linkedin.com/in/najmul-h-talukder-0b45a3316/",
+    "facebook": "https://www.facebook.com/najmul.9341",
+    "github": "https://github.com/najmul-haque-talukder",
+    "iscp": false
   },
   {
-    id: 3,
-    name: "Muzahid Hossan",
-    image: "https://i.postimg.cc/hj4zPtw5/cpipc-man1.jpg",
-    session: "2023-2024",
-    roll: "",
-    shift: "2nd",
-    codeforces: "https://codeforces.com/profile/muzahidhossan",
-    linkedin : "https://www.linkedin.com/in/md-muzahid-1b9462317",
-   
+    "id": 3,
+    "name": "Sabbir Hossain",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756478290/cpi-members/khgow0fhqs7mdamfcxwg.jpg",
+    "session": "2022-2023",
+    "roll": "780154",
+    "shift": "2nd",
+    "portfolio": "https://sabbirhossain.vercel.app/",
+    "iscp": false
   },
   {
-    id: 4,
-    name: "Jubayer Islam",
-    image: "https://i.postimg.cc/qvG0kHLv/Screenshot-2025-08-11-175758.png",
-    session: "2023-2024",
-    roll: "",
-    shift: "2nd",
-    facebook : "https://www.facebook.com/12jubayerisla "
+    "id": 4,
+    "name": "Habibur Rahman Sunny",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756521192/cpi-members/jwb2rmdilzlepk5jjdtl.png",
+    "session": "2023-2024",
+    "roll": "875531",
+    "shift": "2nd",
+    "portfolio": "https://sunny2749.github.io",
+    "linkedin": "https://www.linkedin.com/in/habibur-rahman-s-6ab71b379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "codeforces": "https://codeforces.com/profile/habibur-rahman",
+    "facebook": "https://web.facebook.com/habibur.rahman.sunny.2025",
+    "github": "https://github.com/sunny2749",
+    "iscp": false
   },
   {
-    id: 5,
-    name: "Najmul Haque Talukder",
-    image: "https://i.postimg.cc/vDR1GZMC/najmul-haque-talukder.png",
-    session: "2021-2022",
-    roll: "",
-    shift: "2nd",
-    portfolio : "https://robilop.framer.website/",
-    linkedin: "https://www.linkedin.com/in/najmul-h-talukder-0b45a3316/",
-    github : "https://github.com/najmul-haque-talukder",
-    facebook : "https://www.facebook.com/najmul.9341"
+    "id": 5,
+    "name": "Md Tahsin Mozumder",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756486312/cpi-members/hbefci6cflp8p7pdh50o.jpg",
+    "session": "2023-2024",
+    "roll": "",
+    "shift": "2nd",
+    "portfolio": "https://mozumder.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/md-tahsin-mozumder",
+    "codeforces": "https://codeforces.com/profile/Xtrike_me_",
+    "facebook": "https://www.facebook.com/md.tahsin.mozumder",
+    "github": "https://github.com/git-ethicks",
+    "iscp": false
   },
   {
-    id: 6,
-    name: "Habibur Rahman Sunny",
-    image: "https://i.postimg.cc/RCNsSKLJ/Sunny.png",
-    session: "2023-2024",
-    roll: "",
-    shift: "2nd",
-    linkedin: "https://www.linkedin.com/in/habibur-rahman-s-6ab71b379/",
-    codeforces : "https://codeforces.com/profile/habibur-rahman",
-    github : "https://github.com/sunny2749",
-    facebook : "https://www.facebook.com/habibur.rahman.sunny.2025",
-   
-  },
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "id": 6,
+    "name": "Pritom Majumder",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756485694/cpi-members/q1yxdngjcbiwrl5sv4sr.jpg",
+    "session": "2021-2022",
+    "roll": "679357",
+    "shift": "2nd",
+    "iscp": false
+  }
 ];
 
 export const getMemberProfileById = (id: number): MemberProfile | undefined => {
