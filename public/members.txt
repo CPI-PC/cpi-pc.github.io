@@ -17,7 +17,7 @@ export const memberProfiles: MemberProfile[] = [
   {
     "id": 1,
     "name": "Al Kayes Rifat",
-    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756529970/alkayesrifat-admin-developer-of-cpihtc-website_advloz.gif",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756894370/cpi-members/lnc9jslugzswduycnsdr.jpg",
     "session": "2023-2024",
     "roll": "875483",
     "shift": "2nd",
@@ -53,6 +53,19 @@ export const memberProfiles: MemberProfile[] = [
   },
   {
     "id": 4,
+    "name": "CPIHTC ( Admin )",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756610447/cpi-members/wh84fa8cxbfvs0ixabvv.png",
+    "session": "",
+    "roll": "",
+    "shift": "2nd",
+    "portfolio": "https://cpihtc.vercel.app/",
+    "linkedin": "https://www.linkedin.com/company/cpi-pc",
+    "facebook": "https://www.facebook.com/cpihtc/",
+    "github": "https://github.com/cpi-pc",
+    "iscp": false
+  },
+  {
+    "id": 5,
     "name": "Habibur Rahman Sunny",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756521192/cpi-members/jwb2rmdilzlepk5jjdtl.png",
     "session": "2023-2024",
@@ -66,7 +79,7 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Md Tahsin Mozumder",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756486312/cpi-members/hbefci6cflp8p7pdh50o.jpg",
     "session": "2023-2024",
@@ -80,7 +93,7 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Pritom Majumder",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756485694/cpi-members/q1yxdngjcbiwrl5sv4sr.jpg",
     "session": "2021-2022",
