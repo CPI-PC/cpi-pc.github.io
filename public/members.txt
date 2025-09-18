@@ -16,6 +16,33 @@ export interface MemberProfile {
 export const memberProfiles: MemberProfile[] = [
   {
     "id": 1,
+    "name": "Anika Humayra",
+    "image": "https://i.postimg.cc/pLVxMJDm/cpihtc-girl2.png",
+    "session": "2023-2024",
+    "roll": "875591",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 2,
+    "name": "Afjalur Rahman Tanvir",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757337921/cpi-members/g4tyu6z0n5yk0rbrnbqp.jpg",
+    "session": "2023-24",
+    "roll": "875516",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 3,
+    "name": "Tamjed Hasan Rifat",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757468263/cpi-members/ppd7jsp2d7ce1xroeocn.jpg",
+    "session": "23-24",
+    "roll": "875482",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 4,
     "name": "Sayed Wosama Aiman",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756994275/cpi-members/dtmaqp8svchgg98hcu11.jpg",
     "session": "2023-24",
@@ -24,7 +51,16 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 2,
+    "id": 5,
+    "name": "Afroza akter",
+    "image": "https://i.postimg.cc/pLVxMJDm/cpihtc-girl2.png",
+    "session": "23- 24",
+    "roll": "875540",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 6,
     "name": "Al Kayes Rifat",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756894370/cpi-members/lnc9jslugzswduycnsdr.jpg",
     "session": "2023-2024",
@@ -35,10 +71,10 @@ export const memberProfiles: MemberProfile[] = [
     "codeforces": "https://codeforces.com/profile/alkayesrifat",
     "facebook": "https://www.facebook.com/alkayesrifat.py",
     "github": "https://github.com/alkayesrifat",
-    "iscp": true
+    "iscp": false
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Najmul Haque Talukder",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756459152/cpi-members/l1ydmim4jrnbbpfo2zvj.jpg",
     "session": "2021-2022",
@@ -51,7 +87,25 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 4,
+    "id": 8,
+    "name": "Sabbir hossen",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757337653/cpi-members/lpye58xlrofticofzzn4.jpg",
+    "session": "2023-2024",
+    "roll": "875452",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 9,
+    "name": "Mst. Tahmina Akther Mili",
+    "image": "https://i.postimg.cc/PrjybmgG/cpipc-girl1.jpg",
+    "session": "23-24",
+    "roll": "875518",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 10,
     "name": "Jubayer Islam",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756991483/cpi-members/rru7webakwtk0jdrdf58.webp",
     "session": "2023-2024",
@@ -60,7 +114,52 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 5,
+    "id": 11,
+    "name": "Md Ibrahim Al Maruf",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757343381/cpi-members/cwhdymdheceduwdfqzzo.jpg",
+    "session": "2024-2025",
+    "roll": "259670",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 12,
+    "name": "Jobayer Ahammad",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757346177/cpi-members/pmgrmkh4weaj4vvomoxc.jpg",
+    "session": "24-25",
+    "roll": "259590",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 13,
+    "name": "Farjana Akter Moni",
+    "image": "https://i.postimg.cc/PrjybmgG/cpipc-girl1.jpg",
+    "session": "2023-2024",
+    "roll": "875522",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 14,
+    "name": "Md Meheraz Hossain",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757340404/cpi-members/bx2gxb28kex8y8j10o0z.jpg",
+    "session": "23-24",
+    "roll": "875519",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 15,
+    "name": "Md. Rana islam",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757340370/cpi-members/kjyu8xadgta8j5oehafk.jpg",
+    "session": "2023-2024",
+    "roll": "874197",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 16,
     "name": "Sabbir Hossain",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756478290/cpi-members/khgow0fhqs7mdamfcxwg.jpg",
     "session": "2022-2023",
@@ -70,7 +169,16 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 6,
+    "id": 17,
+    "name": "Samiha sobha Neha.",
+    "image": "https://i.postimg.cc/pXJZsmvm/cpipc-girl2.jpg",
+    "session": "2023-24",
+    "roll": "875583",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 18,
     "name": "Habibur Rahman Sunny",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756521192/cpi-members/jwb2rmdilzlepk5jjdtl.png",
     "session": "2023-2024",
@@ -84,7 +192,7 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 7,
+    "id": 19,
     "name": "Md Tahsin Mozumder",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756486312/cpi-members/hbefci6cflp8p7pdh50o.jpg",
     "session": "2023-2024",
@@ -98,7 +206,16 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 8,
+    "id": 20,
+    "name": "Nosrat Jahan Shorna",
+    "image": "https://i.postimg.cc/pLVxMJDm/cpihtc-girl2.png",
+    "session": "2023-2024",
+    "roll": "875477",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 21,
     "name": "Pritom Majumder",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756485694/cpi-members/q1yxdngjcbiwrl5sv4sr.jpg",
     "session": "2021-2022",
@@ -107,11 +224,47 @@ export const memberProfiles: MemberProfile[] = [
     "iscp": false
   },
   {
-    "id": 9,
+    "id": 22,
     "name": "Aminul Islam Amman",
     "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1756997043/cpi-members/kn4sviwcxgqbhzwrko9c.jpg",
     "session": "2023-2024",
     "roll": "875525",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 23,
+    "name": "Sultan Hossain",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757339648/cpi-members/zi7gtc0unvppfulxprmw.jpg",
+    "session": "2023-2024",
+    "roll": "875506",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 24,
+    "name": "Khadija Rahman",
+    "image": "https://i.postimg.cc/pLVxMJDm/cpihtc-girl2.png",
+    "session": "2022-2023",
+    "roll": "780215",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 25,
+    "name": "Syeda Marin Nahar Mim",
+    "image": "https://i.postimg.cc/pLVxMJDm/cpihtc-girl2.png",
+    "session": "23-24",
+    "roll": "875590",
+    "shift": "2nd",
+    "iscp": false
+  },
+  {
+    "id": 26,
+    "name": "Audnan sami santo",
+    "image": "https://res.cloudinary.com/dn4z4esit/image/upload/v1757337971/cpi-members/mkir8omvnyvubbau0mzb.jpg",
+    "session": "2023-2024",
+    "roll": "875520",
     "shift": "2nd",
     "iscp": false
   }
